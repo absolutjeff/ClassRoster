@@ -13,8 +13,10 @@
 		1F8A35431A0B1DB100544E63 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F8A35421A0B1DB100544E63 /* Images.xcassets */; };
 		1F8A35461A0B1DB100544E63 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F8A35441A0B1DB100544E63 /* LaunchScreen.xib */; };
 		1F8A35521A0B1DB100544E63 /* Class_RosterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8A35511A0B1DB100544E63 /* Class_RosterTests.swift */; };
-		1F8A355C1A0B2DFF00544E63 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8A355B1A0B2DFF00544E63 /* File.swift */; };
+		1F8A355C1A0B2DFF00544E63 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8A355B1A0B2DFF00544E63 /* Person.swift */; };
 		1FF0F6F11A11D3FC00DF70DD /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0F6F01A11D3FC00DF70DD /* DetailViewController.swift */; };
+		1FFE33471A2422CC004DBD4E /* ClassRosterNew.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1FFE33461A2422CC004DBD4E /* ClassRosterNew.plist */; };
+		1FFE33491A2427B9004DBD4E /* PersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFE33481A2427B9004DBD4E /* PersonTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +40,10 @@
 		1F8A354B1A0B1DB100544E63 /* Class RosterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Class RosterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F8A35501A0B1DB100544E63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F8A35511A0B1DB100544E63 /* Class_RosterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Class_RosterTests.swift; sourceTree = "<group>"; };
-		1F8A355B1A0B2DFF00544E63 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		1F8A355B1A0B2DFF00544E63 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		1FF0F6F01A11D3FC00DF70DD /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		1FFE33461A2422CC004DBD4E /* ClassRosterNew.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ClassRosterNew.plist; sourceTree = "<group>"; };
+		1FFE33481A2427B9004DBD4E /* PersonTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,10 +88,12 @@
 				1FF0F6F01A11D3FC00DF70DD /* DetailViewController.swift */,
 				1F8A353B1A0B1DB100544E63 /* AppDelegate.swift */,
 				1F8A353D1A0B1DB100544E63 /* ViewController.swift */,
+				1FFE33481A2427B9004DBD4E /* PersonTableViewCell.swift */,
+				1FFE33461A2422CC004DBD4E /* ClassRosterNew.plist */,
 				1F8A353F1A0B1DB100544E63 /* Main.storyboard */,
 				1F8A35421A0B1DB100544E63 /* Images.xcassets */,
 				1F8A35441A0B1DB100544E63 /* LaunchScreen.xib */,
-				1F8A355B1A0B2DFF00544E63 /* File.swift */,
+				1F8A355B1A0B2DFF00544E63 /* Person.swift */,
 				1F8A35391A0B1DB100544E63 /* Supporting Files */,
 			);
 			path = "Class Roster";
@@ -167,6 +173,7 @@
 				TargetAttributes = {
 					1F8A35351A0B1DB100544E63 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = GGJSPU44S5;
 					};
 					1F8A354A1A0B1DB100544E63 = {
 						CreatedOnToolsVersion = 6.1;
@@ -200,6 +207,7 @@
 			files = (
 				1F8A35411A0B1DB100544E63 /* Main.storyboard in Resources */,
 				1F8A35461A0B1DB100544E63 /* LaunchScreen.xib in Resources */,
+				1FFE33471A2422CC004DBD4E /* ClassRosterNew.plist in Resources */,
 				1F8A35431A0B1DB100544E63 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,8 +227,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F8A353E1A0B1DB100544E63 /* ViewController.swift in Sources */,
-				1F8A355C1A0B2DFF00544E63 /* File.swift in Sources */,
+				1F8A355C1A0B2DFF00544E63 /* Person.swift in Sources */,
 				1F8A353C1A0B1DB100544E63 /* AppDelegate.swift in Sources */,
+				1FFE33491A2427B9004DBD4E /* PersonTableViewCell.swift in Sources */,
 				1FF0F6F11A11D3FC00DF70DD /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -346,9 +355,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Class Roster/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -356,9 +368,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Class Roster/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
